@@ -28,7 +28,7 @@ Historical daily price data for the SPY ETF was collected using the Yahoo Financ
 
 Features were derived from daily returns, not raw prices, to ensure stationarity and improve model performance.
 
-![SPY close Price](images/spy_close_price.png)
+![SPY close Price](./images/spy_close_price.png)
 
 
 
@@ -65,7 +65,7 @@ The results indicate low correlation among return-based and lagged features, ref
 
 Importantly, no extreme linear correlations were identified that would justify feature removal at this stage. The observed relationships suggest that the engineered features provide complementary information related to momentum, trend, and volatility dynamics, making them suitable for tree-based machine learning models.
 
-![Feature correlation matrix](images/Feature_correlation.png)
+![Feature correlation matrix](./images/Feature_correlation.png)
 
 
 
@@ -95,8 +95,8 @@ Although XGBoost achieved the best accuracy, Gradient Boosting achieved the stro
 
 Despite modest performance, results reflect realistic financial market conditions and demonstrate proper time-series modeling practices.
 
-![Accuracy comparison](images/results_accuracy.png)
-![Recall comparison](images/results_recall.png)
+![Accuracy comparison](./images/results_accuracy.png)
+![Recall comparison](./images/results_recall.png)
 
 
 _**Key Insights**_
