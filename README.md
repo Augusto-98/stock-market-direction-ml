@@ -28,7 +28,7 @@ Historical daily price data for the SPY ETF was collected using the Yahoo Financ
 
 Features were derived from daily returns, not raw prices, to ensure stationarity and improve model performance.
 
-![SPY close Price](./images/spy_close_price.png)
+![SPY close Price](./images/spy_close_price.PNG)
 
 
 
